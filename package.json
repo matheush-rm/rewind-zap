@@ -1,0 +1,16 @@
+{
+  "name": "rewind-zap",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "node src/export.js",
+    "preview": "node src/preview.js",
+    "replay": "sh run.sh replay",
+    "status": "node src/status.js"
+  },
+  "dependencies": {
+    "baileys": "7.0.0-rc14",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
