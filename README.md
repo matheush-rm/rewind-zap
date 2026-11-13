@@ -7,6 +7,10 @@ mensagem pelo seu remetente original, na ordem cronológica. A copia nova que su
 Usa a lib [Baileys](https://github.com/WhiskeySockets/Baileys) direto (a Evolution não tem "apagar para mim").
 
 ## Antes de começar
+- **B apaga a conversa atual com A** no celular dele (Mais > Limpar conversa, ou apagar a conversa).
+  As mensagens recriadas recebem a data/hora do envio e o WhatsApp ordena por data: tudo que B
+  ainda tiver ficaria *acima* do histórico recriado. Como A tem tudo (inclusive as recentes), o
+  script recria a conversa inteira e a ordem fica correta.
 - Celulares de A e B **ligados e online** durante todo o processo.
 - **Não conversem entre si** durante o export e o replay.
 - Silencie a conversa nos dois celulares e desative o download automático de mídia em A
